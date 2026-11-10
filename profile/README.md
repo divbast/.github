@@ -18,7 +18,7 @@ under looser settings than the image ships with.
 
 | App | Image | Repository |
 |---|---|---|
-| [Baikal](https://github.com/sabre-io/Baikal), CalDAV and CardDAV | `ghcr.io/divbast/baikal` (arriving soon) | `baikal-oci-image` |
+| [Baikal](https://github.com/sabre-io/Baikal), CalDAV and CardDAV | `ghcr.io/divbast/baikal` | [baikal-oci-image](https://github.com/divbast/baikal-oci-image) |
 | [LibreSpeed](https://github.com/librespeed/speedtest), speed test | `ghcr.io/divbast/librespeed` | [librespeed-oci-image](https://github.com/divbast/librespeed-oci-image) |
 
 ## How images change
