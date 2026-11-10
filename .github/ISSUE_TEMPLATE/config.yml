@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: BSD-2-Clause
+# SPDX-FileCopyrightText: 2026 Aryan Ameri <github@aryan.ameri.coffee>
+
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/divbast/.github/blob/main/SECURITY.md
+    about: Use private vulnerability reporting on the affected repository, never a public issue.
