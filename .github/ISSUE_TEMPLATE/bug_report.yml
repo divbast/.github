@@ -1,0 +1,42 @@
+# SPDX-License-Identifier: BSD-2-Clause
+# SPDX-FileCopyrightText: 2026 Aryan Ameri <github@aryan.ameri.coffee>
+
+name: Bug report
+description: An image misbehaves, fails to start, or breaks a promise in its confinement contract.
+body:
+  - type: input
+    id: image
+    attributes:
+      label: Image and tag or digest
+      description: The exact reference you pulled.
+      placeholder: ghcr.io/divbast/baikal@sha256:...
+    validations:
+      required: true
+  - type: input
+    id: engine
+    attributes:
+      label: Container engine and version
+      placeholder: podman 5.8.1, docker 29.0.0, a Quadlet, Kubernetes 1.36...
+    validations:
+      required: true
+  - type: textarea
+    id: run
+    attributes:
+      label: How you run it
+      description: The command, compose file or Quadlet, with secrets removed.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: Include the container's logs if it failed to start.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
