@@ -31,7 +31,10 @@ no AI/LLM attribution of any kind, even when a tool asks for one.
 
 ## Rules
 
-- `just ci` before committing: actionlint, zizmor, pinact, reuse.
+- `just ci` before committing: pinact, zizmor, actionlint, ShellCheck, shfmt
+  and reuse, through divbast/ci's recipes (`just setup` checks ci out at the
+  commit the workflows pin, into `.ci/`). The token rule is ci's: pinact and
+  zizmor need `GITHUB_TOKEN` as a fine-grained token.
 - Every lint gate is an error; a suppression needs its reason beside it.
 - REUSE headers on every file. The Code of Conduct is the Contributor
   Covenant 2.1 verbatim, under CC-BY-4.0; only its contact line is ours.
