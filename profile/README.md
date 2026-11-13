@@ -23,8 +23,11 @@ under looser settings than the image ships with.
 
 ## How images change
 
-Every dependency is pinned, and Renovate proposes each update as a pull
-request that merges itself only once every test passes. A merge never
+Everything a build names is pinned by version or digest; the C libraries
+compiled into the FrankenPHP binary are the exception, resolved at build
+time.
+Renovate proposes each update as a pull request that merges itself only
+once every test passes. A merge never
 publishes on its own: each image's daily run publishes when its main
 branch has moved, so users see at most one new image a day.
 
