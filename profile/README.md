@@ -20,6 +20,7 @@ under looser settings than the image ships with.
 |---|---|---|
 | [Baikal](https://github.com/sabre-io/Baikal), CalDAV and CardDAV | `ghcr.io/divbast/baikal` | [baikal-oci-image](https://github.com/divbast/baikal-oci-image) |
 | [LibreSpeed](https://github.com/librespeed/speedtest), speed test | `ghcr.io/divbast/librespeed` | [librespeed-oci-image](https://github.com/divbast/librespeed-oci-image) |
+| [WriteFreely](https://github.com/writefreely/writefreely), federated blogging | `ghcr.io/divbast/writefreely` | [writefreely-oci-image](https://github.com/divbast/writefreely-oci-image) |
 
 ## How images change
 
