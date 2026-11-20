@@ -20,6 +20,7 @@ under looser settings than the image ships with.
 |---|---|---|
 | [Baikal](https://github.com/sabre-io/Baikal), CalDAV and CardDAV | `ghcr.io/divbast/baikal` | [baikal-oci-image](https://github.com/divbast/baikal-oci-image) |
 | [LibreSpeed](https://github.com/librespeed/speedtest), speed test | `ghcr.io/divbast/librespeed` | [librespeed-oci-image](https://github.com/divbast/librespeed-oci-image) |
+| [Lidarr](https://github.com/Lidarr/Lidarr), music collection manager (v4 nightly, the develop line) | `ghcr.io/divbast/lidarr` | [lidarr-oci-image](https://github.com/divbast/lidarr-oci-image) |
 | [Prowlarr](https://github.com/Prowlarr/Prowlarr), indexer manager | `ghcr.io/divbast/prowlarr` | [prowlarr-oci-image](https://github.com/divbast/prowlarr-oci-image) |
 | [Sonarr](https://github.com/Sonarr/Sonarr), TV series manager (v5 beta, the develop line) | `ghcr.io/divbast/sonarr` | [sonarr-oci-image](https://github.com/divbast/sonarr-oci-image) |
 | [WriteFreely](https://github.com/writefreely/writefreely), federated blogging | `ghcr.io/divbast/writefreely` | [writefreely-oci-image](https://github.com/divbast/writefreely-oci-image) |
