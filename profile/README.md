@@ -23,6 +23,7 @@ under looser settings than the image ships with.
 | [Lidarr](https://github.com/Lidarr/Lidarr), music collection manager (v4 nightly, the develop line) | `ghcr.io/divbast/lidarr` | [lidarr-oci-image](https://github.com/divbast/lidarr-oci-image) |
 | [Prowlarr](https://github.com/Prowlarr/Prowlarr), indexer manager | `ghcr.io/divbast/prowlarr` | [prowlarr-oci-image](https://github.com/divbast/prowlarr-oci-image) |
 | [Radarr](https://github.com/Radarr/Radarr), movie collection manager | `ghcr.io/divbast/radarr` | [radarr-oci-image](https://github.com/divbast/radarr-oci-image) |
+| [SABnzbd](https://github.com/sabnzbd/sabnzbd), Usenet downloader (every release tag, pre-releases included) | `ghcr.io/divbast/sabnzbd` | [sabnzbd-oci-image](https://github.com/divbast/sabnzbd-oci-image) |
 | [Sonarr](https://github.com/Sonarr/Sonarr), TV series manager (v5 beta, the develop line) | `ghcr.io/divbast/sonarr` | [sonarr-oci-image](https://github.com/divbast/sonarr-oci-image) |
 | [WriteFreely](https://github.com/writefreely/writefreely), federated blogging | `ghcr.io/divbast/writefreely` | [writefreely-oci-image](https://github.com/divbast/writefreely-oci-image) |
 
