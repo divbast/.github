@@ -19,6 +19,7 @@ under looser settings than the image ships with.
 | App | Image | Repository |
 |---|---|---|
 | [Baikal](https://github.com/sabre-io/Baikal), CalDAV and CardDAV | `ghcr.io/divbast/baikal` | [baikal-oci-image](https://github.com/divbast/baikal-oci-image) |
+| [Calibre](https://github.com/kovidgoyal/calibre) and [Calibre-Web](https://github.com/janeczku/calibre-web), e-book library (Calibre's Content Server and Calibre-Web on one library; Calibre-Web from its master branch) | `ghcr.io/divbast/calibre` | [calibre-oci-image](https://github.com/divbast/calibre-oci-image) |
 | [LibreSpeed](https://github.com/librespeed/speedtest), speed test | `ghcr.io/divbast/librespeed` | [librespeed-oci-image](https://github.com/divbast/librespeed-oci-image) |
 | [Lidarr](https://github.com/Lidarr/Lidarr), music collection manager (v4 nightly, the develop line) | `ghcr.io/divbast/lidarr` | [lidarr-oci-image](https://github.com/divbast/lidarr-oci-image) |
 | [Prowlarr](https://github.com/Prowlarr/Prowlarr), indexer manager | `ghcr.io/divbast/prowlarr` | [prowlarr-oci-image](https://github.com/divbast/prowlarr-oci-image) |
